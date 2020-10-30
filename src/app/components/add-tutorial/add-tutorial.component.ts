@@ -12,7 +12,6 @@ export class AddTutorialComponent implements OnInit {
     description: '',
     author:'',
     content:'',
-    content_image: '',
     created:'',
     updated:'',
     published: false
@@ -31,7 +30,6 @@ export class AddTutorialComponent implements OnInit {
       description: this.tutorial.description,
       author: this.tutorial.author,
       content: this.tutorial.content,
-      content_image: this.tutorial.content_image,
       created: this.tutorial.created,
       updated: this.tutorial.updated
     };
@@ -54,7 +52,6 @@ export class AddTutorialComponent implements OnInit {
       description: '',
       author:'',
       content:'',
-      content_image:'',
       created:'',
       updated:'',
       published: false
